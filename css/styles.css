@@ -302,6 +302,7 @@ font-size: 12px;
 
 table {
   width: 100%; /*toma el 100% del padre contenedor*/
+  margin-bottom: 60px;
 }
 
 th {
@@ -315,11 +316,37 @@ td{
 }
 
 table,td, th {
-  border: 1px solid #835835;
-  border-collapse:collapse;
+  font-size: 20px;
+  /* border: 1px solid #835835; */
+  border: 0;
+  /* border-collapse:collapse; */
 }
+
+i{
+  font-size: 12px;
+}
+.precio{
+  font-size: 12px;
+  background: #9c540c;
+  color: white;
+  text-align: center;
+  padding: 15px 7px;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.titulo-precio{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: #412b19;
+  font-size: 45px;
+  font-family: 'Pacifico',cursive;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
 
 .tabla{
   padding: 50px 0;
 }
-
