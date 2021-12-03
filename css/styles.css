@@ -1,7 +1,13 @@
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Allerta', sans-serif;
   margin: 0;
+}
 
+main{
+  flex: 1;
 }
 
 .button {
@@ -314,5 +320,6 @@ table,td, th {
 }
 
 .tabla{
-  padding: 20px;
+  padding: 50px 0;
 }
+
