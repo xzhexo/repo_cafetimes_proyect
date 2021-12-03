@@ -60,9 +60,15 @@ border: 2px solid white;
 .contenedor {
   width: 800px;
   margin: auto;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
+  position: relative;
 }
 
+.background-general{
+  background: #502902;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 4);height: 85px;
+  color: white;
+}
 .titulo {
 
   font-family: 'Montserrat', sans-serif;
@@ -286,4 +292,27 @@ font-size: 12px;
 .generos{
   margin-top: 10px;
   font-size: 12px;
+}
+
+table {
+  width: 100%; /*toma el 100% del padre contenedor*/
+}
+
+th {
+  background: #977639;
+  color: white;
+  padding: 10px 20px;
+}
+
+td{
+  padding: 20px;
+}
+
+table,td, th {
+  border: 1px solid #835835;
+  border-collapse:collapse;
+}
+
+.tabla{
+  padding: 20px;
 }
