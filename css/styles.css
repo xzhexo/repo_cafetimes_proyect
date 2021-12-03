@@ -320,6 +320,7 @@ table,td, th {
   /* border: 1px solid #835835; */
   border: 0;
   /* border-collapse:collapse; */
+  /* padding: 10px 25px;  -> lo agregue yo*/
 }
 
 i{
